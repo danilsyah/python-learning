@@ -1,4 +1,4 @@
-# List
+# ========== List =============
 int_list = [1, 2, 3]
 string_list = ['danil', 'syah']
 empty_list = []
@@ -40,6 +40,45 @@ print(names)
 print(names.pop())
 print(names)
 
+# menampilkan data list menggunakan for loop
 for name in names:
     print(name)
+print("================================")
+
+# ============== Tuple =============
+# value dari tuple ini tidak bisa di ubah
+# biasanya di gunakan untuk ip address dan port nya
+mhs = ('danil', 'fika','haykal')
+
+for m in mhs:
+    print(m.capitalize())
+print("==================================")
+
+# ============ Dictionaries / kamus ===========
+# Kamus dalam Python adalah kumpulan pasangan nilai kunci. Kamus ini dikelilingi oleh kurung kurawal. 
+# Setiap pasangan adalah dipisahkan oleh koma dan kunci dan nilai dipisahkan oleh titik dua. 
+
+mahasiswa = {
+    'nik' : '3216607',
+    'nama' : 'danil syah',
+    'jurusan' : 'sistem informasi',
+    'email' : 'danilsyaharihardjo@gmail.com'
+}
+# get data nama
+print(mahasiswa['nama'])
+
+for k in mahasiswa.keys():
+    print('{} mahasiswa : {}'.format(k, mahasiswa[k]))
+
+print("=====================================")
+
+# ====== Set ========
+#  set hanya akan menampilkan data unik 
+#  jadi ketika ada data yang sama , maka hanya 1 data yang ditampilkan
+
+first_names = {'Fika','Haykal','Danil','Danil', 'Haykal'}
+print(first_names)
+
+
+
 
