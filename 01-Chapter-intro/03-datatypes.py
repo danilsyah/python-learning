@@ -47,12 +47,16 @@ print(list(a))
 print(set(a))
 print(tuple(a))
 
-# mutable : tipe data variabel yang bisa di ubah
-# immutable : tipe data variable yang tidak bisa di ubah
-def f(m):
+# mutable : tipe data variabel yang bisa di ubah : 
+    # int, long, float, complex, str, bytes, tuple, frozenset
+
+# immutable : tipe data variable yang tidak bisa di ubah:
+    # bytearray, list, set, dict
+
+def test(m):
     m.append(3) #menambahkan number ke list
     m.append(5)
     return m
 x = [1, 2]
-print(f(x))
+print(test(x))
 
