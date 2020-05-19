@@ -15,8 +15,8 @@ print(nilai_a, " + ", nilai_b, " = ", jumlah)
 # konversi / parcing to float
 nilai_a = float(input("masukan nilai a : "))
 nilai_b = float(input("masukan nilai b : "))
-jumlah = nilai_a + nilai_b
-print(nilai_a, " + ", nilai_b, " = ", jumlah)
+bagi = nilai_a / nilai_b
+print(nilai_a, " / ", nilai_b, " = ", bagi)
 
 
 
