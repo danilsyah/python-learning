@@ -1,7 +1,12 @@
-=== Roadmap Python Web Development ===
+=== Roadmap Full Stack Python Web Development ===
 
 1. HTML
 2. CSS
+  2.1 Bootstrap
 3. Javascript
+  3.1 Vue
+  3.3 React Js
 4. Python Fundamental
 5. OOP Python
+6. Framework Flask
+7. Framework Django
