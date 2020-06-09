@@ -30,8 +30,3 @@ Stuff = Barang.copy()
 Stuff.append('gelas')
 print(Stuff)
 print(Barang)
-
-n = int(input("masukan nilai n "))
-
-for i in range(0, n):
-    print("nilai ke - ", i)
