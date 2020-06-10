@@ -11,4 +11,5 @@ class mahasiswa():
 otong = mahasiswa('otong surotong', 321212121)
 ucup = mahasiswa('michael ucup', 32323223)
 danil = mahasiswa('danil', 32323223)
+
 print(mahasiswa.jumlah_mahasiswa)
